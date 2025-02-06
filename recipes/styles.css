@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .title {
     font-size: 2em;
     font-weight: bold;
@@ -6,10 +10,15 @@
 
 .description {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: wheat;
+    margin: 10px;
+    padding: 0px 10px;
 }
 
 .ingredients, .steps {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;;
 }
 
 .steps {
@@ -22,3 +31,21 @@
     margin-right: auto;
 }
 
+body {
+    background-color: bisque;
+}
+
+.recipes {
+    width: 25%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: wheat;
+}
+
+.stepsBox, .ingredientsBox {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 10px;
+    padding-left: 10px;
+}
